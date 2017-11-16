@@ -1,0 +1,318 @@
+[25-Feb-2017 06:34:41 UTC] PHP Parse error:  syntax error, unexpected 'elseif' (T_ELSEIF) in /home/poojaessent/public_html/demo/catalog/view/theme/brezzademo1/template/product/category.tpl on line 42
+[07-Mar-2017 07:38:24 UTC] PHP Warning:  Error while sending QUERY packet. PID=459689 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[07-Mar-2017 07:38:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_extension WHERE `type` = 'openbay'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/system/library/openbay.php(117): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/system/library/openbay.php(10): Openbay->getInstalled()
+#3 [internal function]: Openbay->__construct(Object(Registry))
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#5 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Openbay', Array)
+#6 /home/poojaessent/public_html/demo/system/engine/factory.php(700): Factory->newSystemClass('library/openbay...', Array)
+#7 /home/poojaessent/public_html/demo/system/s in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:32 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Query execution was interrupted<br />Error No: 1317<br />SELECT * FROM oc_extension WHERE `type` = 'openbay'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/system/library/openbay.php(117): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/system/library/openbay.php(10): Openbay->getInstalled()
+#3 [internal function]: Openbay->__construct(Object(Registry))
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#5 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Openbay', Array)
+#6 /home/poojaessent/public_html/demo/system/engine/factory.php(700): Factory->newSystemClass('library/openbay...', Array)
+#7 /home/poojaessent/public_html/demo/sys in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:32 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Query execution was interrupted<br />Error No: 1317<br />SELECT * FROM oc_extension WHERE `type` = 'openbay'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/system/library/openbay.php(117): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/system/library/openbay.php(10): Openbay->getInstalled()
+#3 [internal function]: Openbay->__construct(Object(Registry))
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#5 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Openbay', Array)
+#6 /home/poojaessent/public_html/demo/system/engine/factory.php(700): Factory->newSystemClass('library/openbay...', Array)
+#7 /home/poojaessent/public_html/demo/sys in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:32 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Query execution was interrupted<br />Error No: 1317<br />SELECT * FROM oc_extension WHERE `type` = 'openbay'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/system/library/openbay.php(117): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/system/library/openbay.php(10): Openbay->getInstalled()
+#3 [internal function]: Openbay->__construct(Object(Registry))
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#5 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Openbay', Array)
+#6 /home/poojaessent/public_html/demo/system/engine/factory.php(700): Factory->newSystemClass('library/openbay...', Array)
+#7 /home/poojaessent/public_html/demo/sys in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:36 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[07-Mar-2017 07:38:36 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:36 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:36 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[07-Mar-2017 07:38:36 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:36 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:36 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:37 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[07-Mar-2017 07:38:37 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[07-Mar-2017 07:38:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:37 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[07-Mar-2017 07:38:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:37 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[07-Mar-2017 07:38:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:40 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[07-Mar-2017 07:38:40 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:40 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:40 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[07-Mar-2017 07:38:40 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:40 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[07-Mar-2017 07:38:40 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[13-Mar-2017 10:42:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/poojaessent/public_html/demo/system/storage/modification/catalog/view/theme/brezzademo1/template/product/product.tpl on line 777
+[14-Mar-2017 07:23:20 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[14-Mar-2017 07:23:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[14-Mar-2017 07:23:20 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[14-Mar-2017 07:23:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[20-Mar-2017 07:34:37 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[20-Mar-2017 07:34:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[20-Mar-2017 07:34:39 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[20-Mar-2017 07:34:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[20-Mar-2017 07:34:47 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[20-Mar-2017 07:34:47 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[20-Mar-2017 07:34:47 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[20-Mar-2017 07:34:47 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:22 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[03-Apr-2017 11:42:22 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:22 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:22 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:24 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[03-Apr-2017 11:42:24 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:24 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:25 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[03-Apr-2017 11:42:25 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:25 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:25 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[03-Apr-2017 11:42:25 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:25 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:26 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[03-Apr-2017 11:42:26 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:26 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:26 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[03-Apr-2017 11:42:26 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:26 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:29 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[03-Apr-2017 11:42:29 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:29 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:29 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:31 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[03-Apr-2017 11:42:31 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:31 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:31 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:46 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[03-Apr-2017 11:42:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:46 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:46 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:50 UTC] PHP Warning:  mysqli::mysqli(): (HY000/2002): No such file or directory in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 7
+[03-Apr-2017 11:42:50 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:50 UTC] PHP Warning:  DB\MySQLi::__construct(): Couldn't fetch mysqli in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[03-Apr-2017 11:42:50 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: <br />Error No: ' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:10
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(9): DB\MySQLi->__construct('localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#1 [internal function]: DB->__construct('mysqli', 'localhost', 'poojakit-store', 'Poojakit@12345', 'poojaessentials', '3306')
+#2 /home/poojaessent/public_html/demo/system/engine/factory.php(501): ReflectionClass->newInstanceArgs(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/factory.php(538): Factory->newInstance(3, '/home/poojaesse...', 'Db', Array)
+#4 /home/poojaessent/public_html/demo/system/engine/factory.php(756): Factory->newSystemClass('library/db.php', Array)
+#5 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->__call('newDB', Array)
+#6 /home/poojaessent/public_html/demo/system/framework.php(63): Factory->newDB('mysqli', 'localhost', 'poojakit-store', 'Poojaki in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 10
+[19-Apr-2017 11:58:28 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:06 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:07 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:08 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:08 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:08 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:08 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:08 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:08 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:09 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:09 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:09 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:09 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:09 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 28
+[19-Apr-2017 12:02:50 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 30
+[19-Apr-2017 12:04:30 UTC] PHP Fatal error:  Call to undefined method ControllerCustompageMycustompage::render() in /home/poojaessent/public_html/demo/catalog/controller/custompage/mycustompage.php on line 29
+[19-Apr-2017 15:19:44 UTC] PHP Fatal error:  Call to a member function resize() on a non-object in /home/poojaessent/public_html/demo/catalog/controller/productofthemonth.php on line 12
+[19-Apr-2017 15:42:23 UTC] PHP Fatal error:  Unsupported operand types in /home/poojaessent/public_html/demo/catalog/controller/productofthemonth.php on line 155
+[19-Apr-2017 15:43:16 UTC] PHP Fatal error:  Unsupported operand types in /home/poojaessent/public_html/demo/system/library/pagination.php on line 29
+[19-Apr-2017 15:43:49 UTC] PHP Fatal error:  Unsupported operand types in /home/poojaessent/public_html/demo/catalog/controller/productofthemonth.php on line 162
+[21-Apr-2017 10:10:18 UTC] PHP Fatal error:  Cannot redeclare class ModelCatalogProduct in /home/poojaessent/public_html/demo/catalog/model/catalog/product.php on line 539
+[26-Apr-2017 06:29:21 UTC] PHP Parse error:  syntax error, unexpected '.', expecting ',' or ';' in /home/poojaessent/public_html/demo/catalog/model/extension/module/rest_api.php on line 8
+[26-Apr-2017 06:29:27 UTC] PHP Parse error:  syntax error, unexpected '.', expecting ',' or ';' in /home/poojaessent/public_html/demo/catalog/model/extension/module/rest_api.php on line 8

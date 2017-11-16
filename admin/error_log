@@ -1,0 +1,349 @@
+[01-Feb-2017 06:24:58 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 18680 bytes) in /home/poojaessent/public_html/demo/system/library/image.php on line 26
+[01-Feb-2017 06:29:48 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 18680 bytes) in /home/poojaessent/public_html/demo/system/library/image.php on line 26
+[01-Feb-2017 06:29:57 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 18680 bytes) in /home/poojaessent/public_html/demo/system/library/image.php on line 26
+[20-Feb-2017 06:17:27 UTC] PHP Fatal error:  Cannot redeclare class ControllerEventCompatibility in /home/poojaessent/public_html/demo/admin/controller/event/compatibility.php on line 32
+[20-Feb-2017 11:57:39 UTC] PHP Fatal error:  Call to undefined method ControllerShippingCustomShipping::render() in /home/poojaessent/public_html/demo/admin/controller/shipping/customshipping.php on line 165
+[20-Feb-2017 12:02:10 UTC] PHP Fatal error:  Call to undefined method ControllerShippingCustomShipping::render() in /home/poojaessent/public_html/demo/admin/controller/shipping/customshipping.php on line 165
+[20-Feb-2017 12:02:37 UTC] PHP Fatal error:  Call to undefined method ControllerShippingCustomShipping::render() in /home/poojaessent/public_html/demo/admin/controller/shipping/customshipping.php on line 164
+[20-Feb-2017 12:07:43 UTC] PHP Fatal error:  Call to undefined method ControllerShippingCustomShipping::render() in /home/poojaessent/public_html/demo/admin/controller/shipping/customshipping.php on line 164
+[20-Feb-2017 12:35:13 UTC] PHP Fatal error:  Call to undefined method ControllerModulePavmegamenubase::render() in /home/poojaessent/public_html/demo/admin/controller/module/pavmegamenubase.php on line 408
+[20-Feb-2017 12:39:43 UTC] PHP Fatal error:  Call to undefined method ControllerModulePavmegamenubase::render() in /home/poojaessent/public_html/demo/admin/controller/module/pavmegamenubase.php on line 408
+[20-Feb-2017 12:48:54 UTC] PHP Fatal error:  Call to undefined method ControllerModulePavmegamenubase::render() in /home/poojaessent/public_html/demo/admin/controller/module/pavmegamenubase.php on line 408
+[20-Feb-2017 12:49:01 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:52:02 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:52:10 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:52:12 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:52:14 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:55:57 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:56:00 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:56:23 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:58:50 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:58:52 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:58:53 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:58:53 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:58:53 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:58:53 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:58:53 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:58:54 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:58:54 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:58:54 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:58:54 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:59:33 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 12:59:52 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 13:02:33 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 13:02:36 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 13:03:00 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 13:17:30 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 13:17:32 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 13:17:33 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 13:17:33 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/demo/admin/view/template/module/pavmegamenubase/pavmegamenubase_form.tpl on line 36
+[20-Feb-2017 15:05:43 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(548): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(22): ControllerShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerShippingCategoryProductBased->index(Array)
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/loader.php(55): Action->execute(Object(Regi in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[20-Feb-2017 15:06:23 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(548): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(22): ControllerShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerShippingCategoryProductBased->index(Array)
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/loader.php(109): Action->execute(Object(Reg in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[20-Feb-2017 15:17:56 UTC] PHP Fatal error:  Call to undefined method ControllerShippingCustomShipping::redirect() in /home/poojaessent/public_html/demo/admin/controller/shipping/customshipping.php on line 71
+[20-Feb-2017 15:19:11 UTC] PHP Fatal error:  Call to undefined method ControllerShippingCustomShipping::redirect() in /home/poojaessent/public_html/demo/admin/controller/shipping/customshipping.php on line 71
+[20-Feb-2017 15:27:22 UTC] PHP Fatal error:  Call to undefined method ControllerShippingCustomShipping::redirect() in /home/poojaessent/public_html/demo/admin/controller/shipping/customshipping.php on line 71
+[21-Feb-2017 10:09:35 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/poojaessent/public_html/demo/admin/controller/sale/order.php on line 205
+[21-Feb-2017 10:09:36 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/poojaessent/public_html/demo/admin/controller/sale/order.php on line 205
+[21-Feb-2017 10:29:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'p.weight' in 'field list'<br />Error No: 1054<br />SELECT o.order_id, CONCAT(o.firstname, ' ', o.lastname) AS customer, (SELECT os.name FROM oc_order_status os WHERE os.order_status_id = o.order_status_id AND os.language_id = '1') AS order_status, p.weight, o.shipping_code, o.total, o.currency_code, o.currency_value, o.date_added, o.date_modified FROM `oc_order` o WHERE o.order_status_id > '0' ORDER BY o.order_id DESC LIMIT 0,20' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT o.order_...', Array)
+#1 /home/poojaessent/public_html/demo/admin/model/sale/order.php(248): DB->query('SELECT o.order_...')
+#2 [internal function]: ModelSaleOrder->getOrders(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/model_decorator.php(85): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/admin/controller/s in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[21-Feb-2017 10:32:15 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/poojaessent/public_html/demo/admin/controller/sale/order.php on line 218
+[21-Feb-2017 10:33:27 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/poojaessent/public_html/demo/admin/controller/sale/order.php on line 218
+[21-Feb-2017 10:33:31 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/poojaessent/public_html/demo/admin/controller/sale/order.php on line 218
+[21-Feb-2017 10:33:56 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/poojaessent/public_html/demo/admin/controller/sale/order.php on line 625
+[21-Feb-2017 10:33:59 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/poojaessent/public_html/demo/admin/controller/sale/order.php on line 625
+[21-Feb-2017 10:34:32 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'p.weight' in 'field list'<br />Error No: 1054<br />SELECT o.order_id, CONCAT(o.firstname, ' ', o.lastname) AS customer, (SELECT os.name FROM oc_order_status os WHERE os.order_status_id = o.order_status_id AND os.language_id = '1') AS order_status, p.weight, o.shipping_code, o.total, o.currency_code, o.currency_value, o.date_added, o.date_modified FROM `oc_order` o WHERE o.order_status_id > '0' ORDER BY o.order_id DESC LIMIT 0,20' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT o.order_...', Array)
+#1 /home/poojaessent/public_html/demo/admin/model/sale/order.php(248): DB->query('SELECT o.order_...')
+#2 [internal function]: ModelSaleOrder->getOrders(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/model_decorator.php(85): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/admin/controller/s in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[21-Feb-2017 10:37:22 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'p.weight' in 'field list'<br />Error No: 1054<br />SELECT o.order_id, CONCAT(o.firstname, ' ', o.lastname) AS customer, (SELECT os.name FROM oc_order_status os WHERE os.order_status_id = o.order_status_id AND os.language_id = '1') AS order_status, p.weight, o.shipping_code, o.total, o.currency_code, o.currency_value, o.date_added, o.date_modified FROM `oc_order` o WHERE o.order_status_id > '0' ORDER BY o.order_id DESC LIMIT 0,20' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT o.order_...', Array)
+#1 /home/poojaessent/public_html/demo/admin/model/sale/order.php(248): DB->query('SELECT o.order_...')
+#2 [internal function]: ModelSaleOrder->getOrders(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/model_decorator.php(85): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/admin/controller/s in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[21-Feb-2017 10:37:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'p.weight' in 'field list'<br />Error No: 1054<br />SELECT o.order_id, CONCAT(o.firstname, ' ', o.lastname) AS customer, (SELECT os.name FROM oc_order_status os WHERE os.order_status_id = o.order_status_id AND os.language_id = '1') AS order_status, p.weight, o.shipping_code, o.total, o.currency_code, o.currency_value, o.date_added, o.date_modified FROM `oc_order` o WHERE o.order_status_id > '0' ORDER BY o.order_id DESC LIMIT 0,20' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT o.order_...', Array)
+#1 /home/poojaessent/public_html/demo/admin/model/sale/order.php(248): DB->query('SELECT o.order_...')
+#2 [internal function]: ModelSaleOrder->getOrders(Array)
+#3 /home/poojaessent/public_html/demo/system/engine/model_decorator.php(85): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/admin/controller/s in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[23-Feb-2017 12:59:08 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(548): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(22): ControllerShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerShippingCategoryProductBased->index(Array)
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/loader.php(109): Action->execute(Object(Reg in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[23-Feb-2017 13:18:03 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(549): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(22): ControllerShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerShippingCategoryProductBased->index(Array)
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/loader.php(109): Action->execute(Object(Reg in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[23-Feb-2017 13:23:20 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(549): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(22): ControllerShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerShippingCategoryProductBased->index(Array)
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/loader.php(109): Action->execute(Object(Reg in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[23-Feb-2017 13:29:56 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(549): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/shipping/category_product_based.php(22): ControllerShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerShippingCategoryProductBased->index(Array)
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/loader.php(109): Action->execute(Object(Reg in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[23-Feb-2017 13:53:15 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ControllerExtensionShippingCategoryProductBased does not exist' in /home/poojaessent/public_html/demo/system/engine/factory.php:500
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/engine/factory.php(500): ReflectionClass->__construct('ControllerExten...')
+#1 /home/poojaessent/public_html/demo/system/engine/factory.php(507): Factory->newInstance(1, '/home/poojaesse...', 'ControllerExten...', Array)
+#2 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(82): Factory->newController('/home/poojaesse...', 'ControllerExten...')
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/loader.php(109): Action->execute(Object(Registry), Array)
+#4 /home/poojaessent/public_html/demo/admin/controller/extension/extension/shipping.php(27): Loader->controller('extension/shipp...')
+#5 [internal function]: ControllerExtensionExtensionShipping->install()
+#6 /home/poojaessent/public_html/demo/system/ in /home/poojaessent/public_html/demo/system/engine/factory.php on line 500
+[23-Feb-2017 13:57:33 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(548): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(22): ControllerExtensionShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerExtensionShippingCategoryProductBased->index()
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/admin/controller/startup/router.php(26): Action->exe in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[23-Feb-2017 13:59:39 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(548): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(22): ControllerExtensionShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerExtensionShippingCategoryProductBased->index()
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/admin/controller/startup/router.php(26): Action->exe in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[23-Feb-2017 14:41:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(548): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(22): ControllerExtensionShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerExtensionShippingCategoryProductBased->index()
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/admin/controller/startup/router.php(26): Action->exe in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[23-Feb-2017 14:41:41 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(548): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(22): ControllerExtensionShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerExtensionShippingCategoryProductBased->index()
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/admin/controller/startup/router.php(26): Action->exe in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[23-Feb-2017 14:47:56 UTC] PHP Fatal error:  Uncaught exception 'ReflectionException' with message 'Class ControllerExtensionShippingCategoryProductBased does not exist' in /home/poojaessent/public_html/demo/system/engine/factory.php:500
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/engine/factory.php(500): ReflectionClass->__construct('ControllerExten...')
+#1 /home/poojaessent/public_html/demo/system/engine/factory.php(507): Factory->newInstance(1, '/home/poojaesse...', 'ControllerExten...', Array)
+#2 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(82): Factory->newController('/home/poojaesse...', 'ControllerExten...')
+#3 /home/poojaessent/public_html/demo/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#4 [internal function]: ControllerStartupRouter->index()
+#5 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#6 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execut in /home/poojaessent/public_html/demo/system/engine/factory.php on line 500
+[23-Feb-2017 14:49:14 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(549): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(22): ControllerExtensionShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerExtensionShippingCategoryProductBased->index()
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/admin/controller/startup/router.php(26): Action->exe in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[23-Feb-2017 15:21:48 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(549): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(22): ControllerExtensionShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerExtensionShippingCategoryProductBased->index()
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/admin/controller/startup/router.php(26): Action->exe in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:24 UTC] PHP Warning:  Error while sending QUERY packet. PID=458727 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[07-Mar-2017 07:38:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): req in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:24 UTC] PHP Warning:  Error while sending QUERY packet. PID=458737 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[07-Mar-2017 07:38:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): req in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:24 UTC] PHP Warning:  Error while sending QUERY packet. PID=458730 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[07-Mar-2017 07:38:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): req in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:24 UTC] PHP Warning:  Error while sending QUERY packet. PID=459760 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[07-Mar-2017 07:38:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): req in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:24 UTC] PHP Warning:  Error while sending QUERY packet. PID=449698 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[07-Mar-2017 07:38:24 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): req in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=458757 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[07-Mar-2017 07:38:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): req in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=459337 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[07-Mar-2017 07:38:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): req in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=458801 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[07-Mar-2017 07:38:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): req in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=459327 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[07-Mar-2017 07:38:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): req in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Mar-2017 07:38:25 UTC] PHP Warning:  Error while sending QUERY packet. PID=459708 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[07-Mar-2017 07:38:25 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): req in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[14-Mar-2017 07:21:00 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />UPDATE oc_setting SET `value` = '0', serialized = '0'  WHERE `code` = 'config' AND `key` = 'config_maintenance' AND store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('UPDATE oc_setti...', Array)
+#1 /home/poojaessent/public_html/demo/admin/model/setting/setting.php(49): DB->query('UPDATE oc_setti...')
+#2 [internal function]: ModelSettingSetting->editSettingValue('config', 'config_maintena...', '0')
+#3 /home/poojaessent/public_html/demo/system/engine/model_decorator.php(85): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/admin/controller/extension/modification.php(423): ModelDecorator->__call('editSettingValu...', Array)
+#5 /home/poojaessent/public_html/demo/admin/controller/extension/modification.php(423): ModelDecorator->editSettingValue('config', 'conf in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[14-Mar-2017 07:23:13 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_store ORDER BY url' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/model/setting/store.php(43): DB->query('SELECT * FROM o...')
+#2 [internal function]: ModelSettingStore->getStores()
+#3 /home/poojaessent/public_html/demo/system/engine/model_decorator.php(85): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/admin/controller/common/header.php(126): ModelDecorator->__call('getStores', Array)
+#5 /home/poojaessent/public_html/demo/admin/controller/common/header.php(126): ModelDecorator->getStores()
+#6 [internal function]: ControllerCommonHeader->index(Array)
+#7 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Arr in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[14-Mar-2017 07:23:17 UTC] PHP Warning:  Error while sending QUERY packet. PID=266740 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[14-Mar-2017 07:23:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): req in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[14-Mar-2017 07:23:17 UTC] PHP Warning:  Error while sending QUERY packet. PID=231044 in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 18
+[14-Mar-2017 07:23:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: MySQL server has gone away<br />Error No: 2006<br />SELECT * FROM oc_setting WHERE store_id = '0'' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/startup/startup.php(28): DB->query('SELECT * FROM o...')
+#2 [internal function]: ControllerStartupStartup->index()
+#3 /home/poojaessent/public_html/demo/system/engine/action.php(95): call_user_func_array(Array, Array)
+#4 /home/poojaessent/public_html/demo/system/engine/front.php(34): Action->execute(Object(Registry))
+#5 /home/poojaessent/public_html/demo/system/engine/front.php(19): Front->execute(Object(Action))
+#6 /home/poojaessent/public_html/demo/system/framework.php(130): Front->dispatch(Object(Action), Object(Action))
+#7 /home/poojaessent/public_html/demo/system/startup.php(149): require_once('/home/poojaesse.. in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40
+[07-Apr-2017 06:51:17 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />SELECT * FROM oc_setting WHERE `group` = 'category_product_based' ORDER BY `key` ASC' in /home/poojaessent/public_html/demo/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/demo/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM o...', Array)
+#1 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(549): DB->query('SELECT * FROM o...')
+#2 /home/poojaessent/public_html/demo/admin/controller/extension/shipping/category_product_based.php(22): ControllerExtensionShippingCategoryProductBased->backupSettings('auto', Array)
+#3 [internal function]: ControllerExtensionShippingCategoryProductBased->index()
+#4 /home/poojaessent/public_html/demo/system/storage/modification/system/engine/action.php(95): call_user_func_array(Array, Array)
+#5 /home/poojaessent/public_html/demo/admin/controller/startup/router.php(26): Action->exe in /home/poojaessent/public_html/demo/system/library/db/mysqli.php on line 40

@@ -1,0 +1,3454 @@
+2017-04-29 7:12:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-01 8:32:57 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-01 11:10:19 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-01 11:10:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-02 5:25:48 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-05 7:49:53 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-15 6:23:45 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-15 6:34:33 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-15 6:35:22 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-16 11:04:24 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-16 11:13:04 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-16 11:17:09 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-16 11:24:18 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-16 11:40:01 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-16 11:40:05 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-16 17:43:07 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-16 17:44:21 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-16 17:46:10 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+MOD: Qty added should be multiple of minimum (cartbinder@gmail.com)
+CODE: return array(
+LINE: 11
+
+FILE: system/library/cart/cart.php
+CODE: 'product_id'      => $product_query->row['product_id'],
+LINE: 240
+
+FILE: admin/controller/catalog/product.php
+CODE: protected function getForm() {
+LINE: 546
+CODE: if (isset($this->request->post['price'])) {
+LINE: 863
+
+FILE: admin/language/en-gb/catalog/product.php
+CODE: $_['entry_name']
+LINE: 28
+
+FILE: admin/model/catalog/product.php
+CODE: if (isset($data['product_attribute'])) {
+LINE: 24
+CODE: if (!empty($data['product_attribute'])) {
+LINE: 158
+CODE: public function getProducts($data = array()) {
+LINE: 354
+CODE: <label class="col-sm-2 control-label" for="input-subtract"><?php echo $entry_subtract; ?></label>
+LINE: 207
+
+FILE: catalog/controller/checkout/cart.php
+CODE: if ($product['image']) {
+LINE: 99
+CODE: $quantity = (int)$this->request->post['quantity'];
+LINE: 309
+
+FILE: catalog/controller/checkout/checkout.php
+CODE: if ($product['minimum'] > $product_total) {
+LINE: 30
+
+FILE: catalog/language/en-gb/checkout/cart.php
+CODE: $_['error_minimum']
+LINE: 39
+----------------------------------------------------------------
+2017-05-16 17:49:26 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-20 17:43:51 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-20 17:43:56 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------
+2017-05-24 7:45:30 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 84
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 167
+LINE: 301
+LINE: 325
+LINE: 415
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 71
+LINE: 73
+LINE: 82
+LINE: 84
+LINE: 93
+LINE: 95
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: Export/Import Tool (V3.11) for OpenCart 2.x
+
+FILE: admin/controller/common/column_left.php
+CODE: if ($this->user->hasPermission('access', 'tool/log')) {
+LINE: 635
+
+FILE: admin/language/en-gb/common/column_left.php
+CODE: $_['text_backup']
+LINE: 9
+----------------------------------------------------------------
+MOD: HTML Product Attribute
+
+FILE: admin/view/template/catalog/product_form.tpl
+CODE: <?php echo $footer; ?>
+LINE: 1437
+
+FILE: catalog/model/catalog/product.php
+CODE: $product_attribute_data[] = array(
+LINE: 322
+----------------------------------------------------------------
+MOD: Out Of Stock Product Enquiry [OCMOD]
+
+FILE: catalog/view/theme/brezzademo1/template/common/header.tpl
+CODE: </head>
+LINE: 162
+
+FILE: catalog/view/theme/default/template/common/header.tpl
+CODE: </head>
+LINE: 55
+
+FILE: catalog/controller/product/product.php
+CODE: if ($product_info['quantity'] <= 0) {
+LINE: 281
+
+FILE: catalog/view/theme/brezzademo1/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 275
+
+FILE: catalog/view/theme/default/template/product/product.tpl
+CODE: <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+LINE: 298
+
+FILE: catalog/controller/product/category.php
+CODE: $data['products'][] = array(
+LINE: 213
+
+FILE: catalog/view/theme/brezzademo1/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/category.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 130
+
+FILE: catalog/controller/product/manufacturer.php
+CODE: $data['products'][] = array(
+LINE: 210
+
+FILE: catalog/view/theme/brezzademo1/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/manufacturer_info.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/search.php
+CODE: $data['products'][] = array(
+LINE: 247
+
+FILE: catalog/view/theme/brezzademo1/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/search.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 145
+
+FILE: catalog/controller/product/special.php
+CODE: $data['products'][] = array(
+LINE: 132
+
+FILE: catalog/view/theme/brezzademo1/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/special.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 93
+
+FILE: catalog/controller/product/compare.php
+CODE: $data['products'][$product_id] = array(
+LINE: 113
+
+FILE: catalog/view/theme/brezzademo1/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+NOT FOUND - OPERATIONS ABORTED!
+
+FILE: catalog/view/theme/default/template/product/compare.tpl
+CODE: <input type="button" value="<?php echo $button_cart; ?>" class="btn btn-primary btn-block" onclick="cart.add('<?php echo $product['product_id']; ?>', '<?php echo $product['minimum']; ?>');" />
+LINE: 133
+
+FILE: catalog/controller/account/wishlist.php
+CODE: $data['products'][] = array(
+LINE: 103
+
+FILE: catalog/view/theme/brezzademo1/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 74
+
+FILE: catalog/view/theme/default/template/account/wishlist.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');" data-toggle="tooltip" title="<?php echo $button_cart; ?>" class="btn btn-primary"><i class="fa fa-shopping-cart"></i></button>
+LINE: 53
+
+FILE: catalog/controller/extension/module/featured.php
+CODE: $data['products'][] = array(
+LINE: 61
+
+FILE: catalog/view/theme/default/template/extension/module/featured.tpl
+CODE: <button type="button" onclick="cart.add('<?php echo $product['product_id']; ?>');"><i class="fa fa-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md"><?php echo $button_cart; ?></span></button>
+LINE: 34
+----------------------------------------------------------------

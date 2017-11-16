@@ -1,0 +1,80 @@
+[11-May-2016 08:52:15 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/store/upload/catalog/view/theme/themegloballite/template/module/carousel.tpl on line 6
+[11-May-2016 08:53:00 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/store/upload/catalog/view/theme/themegloballite/template/module/carousel.tpl on line 6
+[11-May-2016 08:53:02 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/store/upload/catalog/view/theme/themegloballite/template/module/carousel.tpl on line 6
+[11-May-2016 08:56:46 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/store/upload/catalog/view/theme/themegloballite/template/module/carousel.tpl on line 6
+[11-May-2016 08:58:16 UTC] PHP Fatal error:  Call to a member function get() on a non-object in /home/poojaessent/public_html/store/upload/catalog/view/theme/themegloballite/template/module/carousel.tpl on line 6
+[20-May-2016 15:09:09 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/poojaessent/public_html/store/upload/catalog/view/theme/themegloballite/template/common/header.tpl on line 460
+[24-May-2016 11:15:24 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 16336 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 26
+[27-May-2016 10:18:53 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/poojaessent/public_html/store/upload/catalog/view/theme/themegloballite/template/information/contact.tpl on line 25
+[02-Jun-2016 11:24:30 UTC] PHP Parse error:  syntax error, unexpected ',' in /home/poojaessent/public_html/store/upload/catalog/controller/product/product.php on line 345
+[14-Jun-2016 15:55:29 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2000 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 105
+[15-Jun-2016 15:38:00 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2000 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 105
+[15-Jun-2016 15:38:05 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2000 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 105
+[15-Jun-2016 15:39:21 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2000 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 105
+[15-Jun-2016 15:40:58 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2000 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 105
+[16-Jun-2016 06:02:10 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 16336 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 26
+[24-Jun-2016 08:32:39 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2000 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 105
+[24-Jun-2016 08:32:51 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2000 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 105
+[24-Jun-2016 08:33:01 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 500 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 105
+[24-Jun-2016 08:35:57 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 4084 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 26
+[06-Jul-2016 05:59:08 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2000 bytes) in /home/poojaessent/public_html/store/upload/system/library/image.php on line 105
+[01-Feb-2017 17:21:30 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'poojaessentials.ps_extension' doesn't exist<br />Error No: 1146<br />SELECT * FROM ps_extension WHERE `type` = 'openbay'' in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/store/upload/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM p...', Array)
+#1 /home/poojaessent/public_html/store/upload/system/library/openbay.php(117): DB->query('SELECT * FROM p...')
+#2 /home/poojaessent/public_html/store/upload/system/library/openbay.php(10): Openbay->getInstalled()
+#3 /home/poojaessent/public_html/store/upload/system/engine/loader.php(94): Openbay->__construct(Object(Registry))
+#4 /home/poojaessent/public_html/store/upload/system/framework.php(83): Loader->library('openbay')
+#5 /home/poojaessent/public_html/store/upload/index.php(22): require_once('/home/poojaesse...')
+#6 {main}
+  thrown in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php on line 40
+[07-Feb-2017 08:57:19 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'poojaessentials.ps_extension' doesn't exist<br />Error No: 1146<br />SELECT * FROM ps_extension WHERE `type` = 'openbay'' in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/store/upload/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM p...', Array)
+#1 /home/poojaessent/public_html/store/upload/system/library/openbay.php(117): DB->query('SELECT * FROM p...')
+#2 /home/poojaessent/public_html/store/upload/system/library/openbay.php(10): Openbay->getInstalled()
+#3 /home/poojaessent/public_html/store/upload/system/engine/loader.php(94): Openbay->__construct(Object(Registry))
+#4 /home/poojaessent/public_html/store/upload/system/framework.php(83): Loader->library('openbay')
+#5 /home/poojaessent/public_html/store/upload/index.php(22): require_once('/home/poojaesse...')
+#6 {main}
+  thrown in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php on line 40
+[07-Feb-2017 08:57:26 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'poojaessentials.ps_extension' doesn't exist<br />Error No: 1146<br />SELECT * FROM ps_extension WHERE `type` = 'openbay'' in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/store/upload/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM p...', Array)
+#1 /home/poojaessent/public_html/store/upload/system/library/openbay.php(117): DB->query('SELECT * FROM p...')
+#2 /home/poojaessent/public_html/store/upload/system/library/openbay.php(10): Openbay->getInstalled()
+#3 /home/poojaessent/public_html/store/upload/system/engine/loader.php(94): Openbay->__construct(Object(Registry))
+#4 /home/poojaessent/public_html/store/upload/system/framework.php(83): Loader->library('openbay')
+#5 /home/poojaessent/public_html/store/upload/index.php(22): require_once('/home/poojaesse...')
+#6 {main}
+  thrown in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php on line 40
+[07-Feb-2017 08:57:37 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'poojaessentials.ps_extension' doesn't exist<br />Error No: 1146<br />SELECT * FROM ps_extension WHERE `type` = 'openbay'' in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/store/upload/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM p...', Array)
+#1 /home/poojaessent/public_html/store/upload/system/library/openbay.php(117): DB->query('SELECT * FROM p...')
+#2 /home/poojaessent/public_html/store/upload/system/library/openbay.php(10): Openbay->getInstalled()
+#3 /home/poojaessent/public_html/store/upload/system/engine/loader.php(94): Openbay->__construct(Object(Registry))
+#4 /home/poojaessent/public_html/store/upload/system/framework.php(83): Loader->library('openbay')
+#5 /home/poojaessent/public_html/store/upload/index.php(22): require_once('/home/poojaesse...')
+#6 {main}
+  thrown in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php on line 40
+[10-Feb-2017 15:24:28 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'poojaessentials.ps_extension' doesn't exist<br />Error No: 1146<br />SELECT * FROM ps_extension WHERE `type` = 'openbay'' in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/store/upload/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM p...', Array)
+#1 /home/poojaessent/public_html/store/upload/system/library/openbay.php(117): DB->query('SELECT * FROM p...')
+#2 /home/poojaessent/public_html/store/upload/system/library/openbay.php(10): Openbay->getInstalled()
+#3 /home/poojaessent/public_html/store/upload/system/engine/loader.php(94): Openbay->__construct(Object(Registry))
+#4 /home/poojaessent/public_html/store/upload/system/framework.php(83): Loader->library('openbay')
+#5 /home/poojaessent/public_html/store/upload/index.php(22): require_once('/home/poojaesse...')
+#6 {main}
+  thrown in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php on line 40
+[11-Apr-2017 10:45:01 UTC] PHP Fatal error:  Uncaught exception 'Exception' with message 'Error: Table 'poojaessentials.ps_extension' doesn't exist<br />Error No: 1146<br />SELECT * FROM ps_extension WHERE `type` = 'openbay'' in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php:40
+Stack trace:
+#0 /home/poojaessent/public_html/store/upload/system/library/db.php(16): DB\MySQLi->query('SELECT * FROM p...', Array)
+#1 /home/poojaessent/public_html/store/upload/system/library/openbay.php(117): DB->query('SELECT * FROM p...')
+#2 /home/poojaessent/public_html/store/upload/system/library/openbay.php(10): Openbay->getInstalled()
+#3 /home/poojaessent/public_html/store/upload/system/engine/loader.php(94): Openbay->__construct(Object(Registry))
+#4 /home/poojaessent/public_html/store/upload/system/framework.php(83): Loader->library('openbay')
+#5 /home/poojaessent/public_html/store/upload/index.php(22): require_once('/home/poojaesse...')
+#6 {main}
+  thrown in /home/poojaessent/public_html/store/upload/system/library/db/mysqli.php on line 40

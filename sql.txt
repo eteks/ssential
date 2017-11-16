@@ -1,0 +1,1 @@
+UPDATE oc_product SET quantity = 0 WHERE  product_id = 23 
